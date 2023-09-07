@@ -4,7 +4,7 @@ from django.db import models
 
 class Contact(models.Model):
     name = models.CharField(max_length=50,verbose_name="ism")
-    phone = models.CharField(max_length=17,verbose_name="telefon")
+    phone = models.CharField(max_length=17,verbose_name="telefon",unique=True)
 
     def __str__(self):
         return self.name

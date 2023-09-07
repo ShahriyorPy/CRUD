@@ -9,5 +9,5 @@ class ContactAdmin(admin.ModelAdmin):
     search_fields = ['name']
     search_help_text = "Ismi, ismi bo'yicha qidiring."
     list_filter = ["name"]
-    list_per_page = 2
+    list_per_page = 5
 
