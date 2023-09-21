@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
 
-    'asosiyAPP'
+    # Tashqi package'lar:
+    'asosiyAPP',
+    'drf_yasg',
 ]
 
 MIDDLEWARE = [
